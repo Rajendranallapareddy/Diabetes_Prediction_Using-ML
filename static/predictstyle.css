@@ -1,0 +1,64 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+.bg {
+    background-image: url('../static/images/healthy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    opacity: 0.8;
+  }
+.container {
+	width: 40%;
+	margin: 10px auto;
+	border-radius: 30px;
+	background-color: #f2f0e7;
+	padding: 50px;
+	border: 1px solid #34f412;
+	box-shadow: 0 0 10px rgba(66, 241, 54, 0.923);
+	z-index: -1; 
+    opacity: 0.9;
+}
+
+h1 {
+	color: #e62bf7;
+	margin-bottom: 20px;
+}
+label {  
+    display: block;
+	margin-bottom: 10px;
+}
+input[type="number"] {
+	width: 95%;
+	padding: 10px;
+	margin-bottom: 0px;
+	border: 1px solid #f8f531;
+}
+button[type="submit"] {
+	background-color: #dbea10;
+	color: #020f00;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+button[type="submit"]:hover {
+	background-color: #1cb636;
+}
+.backbutton {
+	background-color: #73e0f0;
+	color: #020f00;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 25px;
+  }
+  .backbutton:hover {
+	background-color: #31ae37;
+  }

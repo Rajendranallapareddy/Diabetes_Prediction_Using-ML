@@ -1,0 +1,82 @@
+.background {
+    background-image: url('../static/images/healthy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    opacity: 0.9;
+  }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image:url('healthy.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(236, 198, 102, 0.7);
+  padding: 30px;
+  border-radius: 50px;
+}
+.pred{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  text-decoration: none;
+  display: inline-block; 
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: #a5ec3b;
+  color: #040101;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pred:hover {
+background-color: #465be6; 
+}
+.home{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  margin-left: 20px;
+  text-decoration: none;
+  display: inline-block; 
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: #a5ec3b;
+  color: #040101;
+  transition: background-color 0.3s, color 0.3s;
+}
+.home:hover {
+  background-color: #465be6; 
+  }
+.hospital {
+    padding: 15px 30px;
+    background-color: #aceca6;
+    color: #070107;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: 50px;
+}
+.hospital:hover {
+    background-color: #e055ef;
+    }
